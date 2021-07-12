@@ -47,11 +47,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <div className="day">
-          <h3>{weather[0].weekDey}</h3>
-          <img src={weather[0].imgURL} />
-          <p>{weather[0].temp}</p>
-        </div> */}
         {weather.map((day, index) => {
           return (
             <div key={index} className="day">
